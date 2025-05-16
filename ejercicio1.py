@@ -9,3 +9,12 @@
 # 4. Luego, solicita al usuario un número y llama a la función con ese valor
 
 # 👇 Aquí comienza tu código
+def mostrar_tabla(n):
+
+    for i in range(1, 11):
+        print(f"{n} x {i} = {n * i}")
+
+numero = int(input("Introduce un número para ver su tabla de multiplicar: "))
+
+
+mostrar_tabla(numero)
